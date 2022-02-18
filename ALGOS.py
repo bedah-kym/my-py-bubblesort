@@ -1,9 +1,9 @@
 
-"""
+""'
 its simple just run a loop to find the smallest then
 add the smallest to a NEW list and remove it from the 
 old list and loop again untill the old list is empty
-
+"""
 lst=[25,4,56,7,5,4,3,1,20]
 new=[]
 
@@ -22,9 +22,8 @@ def selection_sort(nums,new):
     return new
         
 print(selection_sort(lst,new))
-"""
+
             #space
-"""
 def bubble_sort(nums):
     n= len(nums)
     for x in range(0,n):
@@ -40,7 +39,7 @@ def bubble_sort(nums):
     return nums
         
 print(bubble_sort(lst))
-"""        
+        
     
     
     
